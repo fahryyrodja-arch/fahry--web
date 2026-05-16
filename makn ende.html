@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrasah Aliyah Kejuruan Negeri Ende - Website Sekolah</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+</head>
+<body>
+    
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Logo Sekolah">
+                <div class="logo-text">
+                    <span class="logo-title">SMKN 1 CONTOH</span>
+                    <span class="logo-subtitle">Sekolah Unggul Berprestasi</span>
+                </div>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+                <li><a href="#academic" class="nav-link">Akademik</a></li>
+                <li><a href="#ppdb" class="nav-link">PPDB</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <span class="hero-badge">
+                    <i class="fas fa-award"></i> Sekolah Terakreditasi A
+                </span>
+                <h1 class="hero-title">
+                    Selamat Datang di <br>
+                    <span class="text-highlight">SMKN 1 Contoh</span>
+                </h1>
+                <p class="hero-desc">
+                    Mencetak generasi unggul, berkarakter, dan siap bersaing di era globalisasi 
+                    dengan pendidikan berkualitas dan fasilitas modern.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#ppdb" class="btn btn-primary">
+                        <i class="fas fa-user-plus"></i> Daftar PPDB
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        <i class="fas fa-info-circle"></i> Pelajari Lebih Lanjut
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="stat-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3 class="stat-number" data-target="2500">0</h3>
+                    <p>Siswa Aktif</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3 class="stat-number" data-target="120">0</h3>
+                    <p>Guru & Staff</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3 class="stat-number" data-target="85">0</h3>
+                    <p>Penghargaan</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-building"></i>
+                    <h3 class="stat-number" data-target="15">0</h3>
+                    <p>Jurusan</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+    
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-img-main">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=700&fit=crop" alt="Sekolah">
+                    </div>
+                    <div class="about-img-float">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=300&h=300&fit=crop" alt="Belajar">
+                        <div class="float-badge">
+                            <i class="fas fa-star"></i>
+                            <span>25+ Tahun<br>Berdiri</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
+                    <span class="section-badge">
+                        <i class="fas fa-school"></i> Tentang Kami
+                    </span>
+                    <h2 class="section-title">
+                        Sekolah Unggulan dengan <br>
+                        <span class="text-highlight">Visi Masa Depan</span>
+                    </h2>
+                    <p class="about-text">
+                        SMKN 1 Contoh didirikan pada tahun 1998 dengan komitmen untuk memberikan 
+                        pendidikan berkualitas tinggi. Kami memiliki visi untuk menjadi sekolah 
+                        kejuruan unggul yang menghasilkan lulusan kompeten, berkarakter, dan siap 
+                        bersaing di dunia kerja maupun wirausaha.
+                    </p>
+                    <p class="about-text">
+                        Dengan fasilitas modern, kurikulum yang selalu diperbarui sesuai kebutuhan 
+                        industri, dan tenaga pengajar profesional, kami memastikan setiap siswa 
+                        mendapatkan pengalaman belajar terbaik.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="feature-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h4>Kurikulum Terbaru</h4>
+                                <p>Sesuai standar industri dan kebutuhan pasar kerja</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="feature-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h4>Fasilitas Modern</h4>
+                                <p>Laboratorium dan workshop lengkap dengan teknologi terkini</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="feature-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h4>Kerja Sama Industri</h4>
+                                <p>Partner dengan 50+ perusahaan untuk magang dan kerja</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========== ACADEMIC SECTION ========== -->
+    <section class="academic" id="academic">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">
+                    <i class="fas fa-graduation-cap"></i> Program Akademik
+                </span>
+                <h2 class="section-title">
+                    Pilihan <span class="text-highlight">Jurusan</span> Unggulan
+                </h2>
+                <p class="section-desc">
+                    Kami menyediakan berbagai program keahlian yang sesuai dengan kebutuhan industri modern
+                </p>
+            </div>
+            
+            <div class="academic-grid">
+                <div class="academic-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="RPL">
+                        <div class="card-overlay">
+                            <span class="card-tag">Populer</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Rekayasa Perangkat Lunak</h3>
+                        <p>Mempelajari pemrograman, pengembangan aplikasi, dan sistem informasi modern.</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> Web Development</li>
+                            <li><i class="fas fa-check"></i> Mobile App Development</li>
+                            <li><i class="fas fa-check"></i> Database Management</li>
+                        </ul>
+                        <a href="#" class="card-link">Pelajari Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="academic-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop" alt="TKJ">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Teknik Komputer & Jaringan</h3>
+                        <p>Mempelajari instalasi jaringan, troubleshooting, dan keamanan sistem.</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> Network Administration</li>
+                            <li><i class="fas fa-check"></i> Cyber Security</li>
+                            <li><i class="fas fa-check"></i> Server Management</li>
+                        </ul>
+                        <a href="#" class="card-link">Pelajari Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="academic-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1560472355-536de3962603?w=400&h=250&fit=crop" alt="Multimedia">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Multimedia</h3>
+                        <p>Mempelajari desain grafis, animasi, video editing, dan konten kreatif.</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> Graphic Design</li>
+                            <li><i class="fas fa-check"></i> Video Production</li>
+                            <li><i class="fas fa-check"></i> 3D Animation</li>
+                        </ul>
+                        <a href="#" class="card-link">Pelajari Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="academic-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop" alt="Akuntansi">
+                        <div class="card-overlay">
+                            <span class="card-tag">Baru</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Akuntansi & Keuangan</h3>
+                        <p>Mempelajari pembukuan, laporan keuangan, dan manajemen bisnis.</p>
+                        <ul class="card-list">
+                            <li><i class="fas fa-check"></i> Financial Accounting</li>
+                            <li><i class="fas fa-check"></i> Tax Management</li>
+                            <li><i class="fas fa-check"></i> Business Analysis</li>
+                        </ul>
+                        <a href="#" class="card-link">Pelajari Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Siap Bergabung dengan Kami?</h2>
+                <p>Daftar sekarang dan jadilah bagian dari generasi unggul SMKN 1 Contoh</p>
+                <a href="#ppdb" class="btn btn-light">
+                    <i class="fas fa-user-plus"></i> Daftar Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========== PPDB SECTION ========== -->
+    <section class="ppdb" id="ppdb">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">
+                    <i class="fas fa-user-plus"></i> Penerimaan Peserta Didik Baru
+                </span>
+                <h2 class="section-title">
+                    Informasi <span class="text-highlight">PPDB 2026/2027</span>
+                </h2>
+                <p class="section-desc">
+                    Tahun ajaran baru telah dibuka. Segera daftarkan diri Anda untuk menjadi bagian dari keluarga besar kami.
+                </p>
+            </div>
+            
+            <div class="ppdb-grid">
+                <div class="ppdb-info" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Jadwal Pendaftaran</h4>
+                            <p><strong>15 Mei - 30 Juni 2026</strong></p>
+                            <p>Pendaftaran online 24 jam</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Syarat Pendaftaran</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Fotocopy Ijazah SMP/MTs</li>
+                                <li><i class="fas fa-check-circle"></i> Fotocopy Kartu Keluarga</li>
+                                <li><i class="fas fa-check-circle"></i> Fotocopy Akta Kelahiran</li>
+                                <li><i class="fas fa-check-circle"></i> Pas Foto 3x4 (4 lembar)</li>
+                                <li><i class="fas fa-check-circle"></i> Surat Keterangan Sehat</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Informasi Lebih Lanjut</h4>
+                            <p><i class="fas fa-phone"></i> (021) 1234-5678</p>
+                            <p><i class="fas fa-envelope"></i> ppdb@smkn1contoh.sch.id</p>
+                            <p><i class="fab fa-whatsapp"></i> 0812-3456-7890</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ppdb-form-wrapper" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="form-card">
+                        <div class="form-header">
+                            <h3><i class="fas fa-edit"></i> Formulir Pendaftaran Online</h3>
+                            <p>Isi data diri Anda dengan lengkap dan benar</p>
+                        </div>
+                        <form class="ppdb-form" id="ppdbForm">
+                            <div class="form-group">
+                                <label for="nama"><i class="fas fa-user"></i> Nama Lengkap</label>
+                                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nisn"><i class="fas fa-id-card"></i> NISN</label>
+                                    <input type="text" id="nisn" name="nisn" placeholder="10 digit NISN" maxlength="10" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="jenisKelamin"><i class="fas fa-venus-mars"></i> Jenis Kelamin</label>
+                                    <select id="jenisKelamin" name="jenisKelamin" required>
+                                        <option value="">Pilih</option>
+                                        <option value="Laki-laki">Laki-laki</option>
+                                        <option value="Perempuan">Perempuan</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="tempatLahir"><i class="fas fa-map-marker-alt"></i> Tempat Lahir</label>
+                                    <input type="text" id="tempatLahir" name="tempatLahir" placeholder="Kota kelahiran" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="tanggalLahir"><i class="fas fa-calendar"></i> Tanggal Lahir</label>
+                                    <input type="date" id="tanggalLahir" name="tanggalLahir" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="asalSekolah"><i class="fas fa-school"></i> Asal Sekolah</label>
+                                <input type="text" id="asalSekolah" name="asalSekolah" placeholder="Nama SMP/MTs" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="jurusan"><i class="fas fa-graduation-cap"></i> Pilihan Jurusan</label>
+                                <select id="jurusan" name="jurusan" required>
+                                    <option value="">Pilih Jurusan</option>
+                                    <option value="rpl">Rekayasa Perangkat Lunak</option>
+                                    <option value="tkj">Teknik Komputer & Jaringan</option>
+                                    <option value="mm">Multimedia</option>
+                                    <option value="ak">Akuntansi & Keuangan</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="alamat"><i class="fas fa-home"></i> Alamat Lengkap</label>
+                                <textarea id="alamat" name="alamat" rows="3" placeholder="Alamat lengkap sesuai KTP/KK" required></textarea>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="noHp"><i class="fas fa-mobile-alt"></i> No. HP</label>
+                                    <input type="tel" id="noHp" name="noHp" placeholder="08xxxxxxxxxx" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                                    <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-submit">
+                                <i class="fas fa-paper-plane"></i> Kirim Pendaftaran
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">
+                    <i class="fas fa-address-book"></i> Hubungi Kami
+                </span>
+                <h2 class="section-title">
+                    Informasi <span class="text-highlight">Kontak</span>
+                </h2>
+                <p class="section-desc">
+                    Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Alamat Sekolah</h4>
+                            <p>Jl. Pendidikan No. 123, Kel. Maju Jaya,<br>Kec. Sejahtera, Kota Contoh, 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Telepon</h4>
+                            <p>(021) 1234-5678</p>
+                            <p>(021) 8765-4321</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Email</h4>
+                            <p>info@smkn1contoh.sch.id</p>
+                            <p>humas@smkn1contoh.sch.id</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 07.00 - 16.00 WIB</p>
+                            <p>Sabtu: 07.00 - 12.00 WIB</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Ikuti Kami</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonas!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Lokasi Sekolah">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <a href="#" class="footer-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Logo">
+                            <span>SMKN 1 CONTOH</span>
+                        </a>
+                        <p>
+                            Sekolah kejuruan unggulan yang berkomitmen mencetak generasi 
+                            muda yang kompeten, berkarakter, dan siap menghadapi tantangan global.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Tautan Cepat</h4>
+                        <ul>
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> Beranda</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-right"></i> Tentang Kami</a></li>
+                            <li><a href="#academic"><i class="fas fa-chevron-right"></i> Akademik</a></li>
+                            <li><a href="#ppdb"><i class="fas fa-chevron-right"></i> PPDB</a></li>
+                            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Kontak</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Program Keahlian</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Rekayasa Perangkat Lunak</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Teknik Komputer & Jaringan</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Multimedia</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Akuntansi & Keuangan</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Berlangganan untuk mendapatkan informasi terbaru dari kami.</p>
+                        <form class="newsletter-form" id="newsletterForm">
+                            <input type="email" placeholder="Masukkan email Anda" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 SMKN 1 Contoh. All Rights Reserved.</p>
+                <p>Dibuat dengan <i class="fas fa-heart"></i> untuk pendidikan Indonesia</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ========== BACK TO TOP BUTTON ========== -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- ========== SCRIPTS ========== -->
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="school.js"></script>
+    
+</body>
+</html>
